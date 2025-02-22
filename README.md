@@ -90,7 +90,7 @@ Want to improve this project? Feel free to fork and contribute! 🚀
 
 ```sh
 git clone https://github.com/Ashutosh102/log-manager-demo.git
-cd log-management-system
+cd log-manager-demo
 git checkout -b feature-branch
 ```
 
