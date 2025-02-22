@@ -105,8 +105,8 @@ This project is licensed under the **ISC License**.
 For any inquiries, feel free to connect:
 - **Author:** Ashutosh Mohanty  
 - **Email:** ashutoshmohanty3815@gmail.com  
-- **GitHub:** [@yourusername](https://github.com/Ashutosh102)  
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/devashu)
+- **GitHub:** [@DevAshu](https://github.com/Ashutosh102)  
+- **LinkedIn:** [Ashutosh Mohanty](https://linkedin.com/in/devashu)
 
 ---
 
