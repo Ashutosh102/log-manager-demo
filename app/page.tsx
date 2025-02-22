@@ -41,7 +41,6 @@ export default function Home() {
     columnWidths: {},
   })
 
-  // Media query to detect small screens
   const isMobile = useMediaQuery({ maxWidth: 768 })
 
   useEffect(() => {
@@ -117,6 +116,10 @@ export default function Home() {
 
   const handleDeleteAlert = (alertId: string) => {
     setAlerts((prevAlerts) => prevAlerts.filter((alert) => alert.id !== alertId))
+  }
+
+  const handleDeleteAllAlerts = () => {
+    setAlerts([])
   }
 
   const handleMenuSelect = ({ key }: { key: string }) => {
@@ -195,7 +198,7 @@ export default function Home() {
             </div>
           </Header>
           <Content style={{ padding: "24px" }}>
-            <AlertPanel alerts={alerts} onDeleteAlert={handleDeleteAlert} />
+            <AlertPanel alerts={alerts} onDeleteAlert={handleDeleteAlert} onDeleteAllAlerts={handleDeleteAllAlerts} />
             {currentPage === "logs" && (
               <>
                 <FilterPanel
