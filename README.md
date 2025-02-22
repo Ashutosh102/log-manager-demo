@@ -35,7 +35,7 @@ The **Log Management System** is a powerful and real-time logging platform desig
 - Bookmark important logs for later reference.
 
 ### ⏳ Auto-Cleanup
-- **Automatically delete logs** older than a specified time (e.g., 5 days).
+- **Automatically delete logs** older than a specified time (3 days).
 
 ### 🎨 Customizable Views & Dark Mode
 - Choose visible columns, resize, and save view settings.
